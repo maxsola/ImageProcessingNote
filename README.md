@@ -139,9 +139,9 @@ $$I 光强 \quad r 点到光源的距离 \quad \theta 法向量与光线的夹�
 
 >   重建物体三维图像；照相机不动，改变光源的方向
 
-<img src='2-8.PNG' height=200>
+<img src='.\img\2-8.PNG' height=200>
 
-<img src='2-9.PNG' height=450>
+<img src='.\img\2-9.PNG' height=450>
 
 ### 光源的估计和修正（目的）
 
