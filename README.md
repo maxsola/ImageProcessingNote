@@ -1,6 +1,6 @@
 # 图像处理 22年春
 
-<img src='.\0-1.PNG'>
+<img src='.\img\0-1.PNG'>
 
 >   $a,b \quad ; \quad c$ 
 
@@ -20,16 +20,16 @@
 
 ### 图像经过函数变成什么样子
 
-<img src='.\1-1.PNG'>
+<img src='.\img\1-1.PNG'>
 
-<img src='.\1-2.PNG'>
+<img src='.\img\1-2.PNG'>
 
 > 变亮；变暗；反色
 > 对比度减弱；对比度增强；对比度减弱，变亮 (这一行我猜的) 
 
 ### 图像直方图，直方图均衡化，归一化
 
-<img src='.\1-3.PNG'>
+<img src='.\img\1-3.PNG'>
 
 > (**期末考题填表**) 均衡化（见4.2）后信息丢失，效果更好
 
@@ -52,13 +52,13 @@
 
 ### 马赫效应
 
-<img src='.\2-1.PNG'>
+<img src='.\img\2-1.PNG'>
 
 > 人眼对高频不敏感；不同的灰度边缘，具有边缘效应，即过渡带（图像的边沿蕴含大量的信息）
 
 ### RGB模型
 
-<img src='.\2-2.PNG'>
+<img src='.\img\2-2.PNG'>
 
 > 红绿蓝表示各**8bit**(0-255)
 > 灰度是RGB模型的**对角线**
@@ -67,7 +67,7 @@ HIS：亮度，色调，饱和度
 
 ### 流程图应用
 
-<img src='.\2-3.PNG'>
+<img src='.\img\2-3.PNG'>
 
 > 图像融合（将低分辨率的图像中的亮度`I`通过高分辨率图像的亮度`I`进行匹配替换，融合图像，提高分辨率）
 
@@ -83,11 +83,11 @@ $$ f(x,y)=i(x,y)\cdot r(x,y)\quad
 
 复杂模型：
 
-<img src='.\2-4.PNG' height=300 >
+<img src='.\img\2-4.PNG' height=300 >
 
 往年题目(**见Chapter 6**)：
 
-<img src='.\2-5.PNG' height=300>
+<img src='.\img\2-5.PNG' height=300>
 
 #### !!! 传感器模型
 
@@ -116,7 +116,7 @@ $$R 色彩通道增益 \quad E 入射的辐照度 \quad S反射系数$$
 
 #### 立体角
 
-<img src='.\2-6.PNG'>
+<img src='.\img\2-6.PNG'>
 
 $$\omega = a = \frac{A}{R^2}(steradians)$$
 
@@ -129,7 +129,7 @@ $$\omega = a = \frac{A}{R^2}(steradians)$$
 
 #### 透视收缩
 
-<img src='.\2-7.PNG'>
+<img src='.\img\2-7.PNG'>
 
 $$I 光强 \quad r 点到光源的距离 \quad \theta 法向量与光线的夹角$$
 
@@ -157,7 +157,7 @@ $$E_k=\lbrack \frac{1}{N}\sum_j I^p_{k,j}\rbrack ^{\frac{1}{p}}\quad k \in \lbra
 
 ### 对比度处理法 **今年期末考**
 
-<img src='.\4-1.PNG' height=150>
+<img src='.\img\4-1.PNG' height=150>
 
 >   使`ab`段的对比度增强，使对比度更加鲜明；反色；灰度切分
 
@@ -195,7 +195,7 @@ $$E_k=\lbrack \frac{1}{N}\sum_j I^p_{k,j}\rbrack ^{\frac{1}{p}}\quad k \in \lbra
 
 #### 锐化
 
-<img src='.\4-3.PNG'>
+<img src='.\img\4-3.PNG'>
 
 >    模板锐化的哪个方向
 
@@ -234,13 +234,13 @@ $$f(x,y)= \begin{cases} I_R(x,y) \\ I_G(x,y) \\ I_B(x,y) \end{cases}$$
 
 #### 平滑滤波
 
-<img src='.\5-1.PNG' height=200>
+<img src='.\img\5-1.PNG' height=200>
 
 >   均值；高斯滤波
 
 ### Laplace算子
 
-<img src='.\5-2.PNG' height=150>
+<img src='.\img\5-2.PNG' height=150>
 
 >   数值大的区域就是边缘区域（边缘变化较快）
 
@@ -248,7 +248,7 @@ $$f(x,y)= \begin{cases} I_R(x,y) \\ I_G(x,y) \\ I_B(x,y) \end{cases}$$
 
 #### `Sobel`算子
 
-<img src='.\5-3.PNG' height=300>
+<img src='.\img\5-3.PNG' height=300>
 
 #### `Canny`算子
 
@@ -259,13 +259,13 @@ $$f(x,y)= \begin{cases} I_R(x,y) \\ I_G(x,y) \\ I_B(x,y) \end{cases}$$
 3.   抑制非沿梯度方向变化的边界
 4.   保留强的以及连通的边界
 
-<img src='.\5-4.PNG'>
+<img src='.\img\5-4.PNG'>
 
 **应用**：颗粒测度
 
 ## Chapter 6 ：图像的恢复
 
-<img src='.\6-1.PNG'>
+<img src='.\img\6-1.PNG'>
 
 ### 图像降质的因素
 
@@ -273,7 +273,7 @@ $$f(x,y)= \begin{cases} I_R(x,y) \\ I_G(x,y) \\ I_B(x,y) \end{cases}$$
 -   传感器（CCD）非线性
 -   AD混叠
 
-<img src='.\6-2.PNG' height=350>
+<img src='.\img\6-2.PNG' height=350>
 
 ### 图像恢复和图像增强的异同点
 
@@ -290,7 +290,7 @@ $$f(x,y)= \begin{cases} I_R(x,y) \\ I_G(x,y) \\ I_B(x,y) \end{cases}$$
 
 ### 线性退化模型（时不变）
 
-<img src='.\6-3.PNG'>
+<img src='.\img\6-3.PNG'>
 
 大气湍流模型：$H(u, v) = e^{-k(u^2+v^2)^{\frac{5}{6}}}$
 
@@ -306,19 +306,19 @@ $$f(x,y)= \begin{cases} I_R(x,y) \\ I_G(x,y) \\ I_B(x,y) \end{cases}$$
 
 **上课的时候说会考推导？？？**
 
-<img src='.\6-4.PNG'>
+<img src='.\img\6-4.PNG'>
 
-<img src='.\6-5.PNG'>
+<img src='.\img\6-5.PNG'>
 
 *少了平方*
 
-<img src='.\6-6.PNG'>
+<img src='.\img\6-6.PNG'>
 
 ## Chapter 7 ：目标检测
 
 ### 霍夫变化（给出图 指出问题）
 
-<img src='.\6-7.PNG'>
+<img src='.\img\6-7.PNG'>
 
 -   降维：将线对应成点$(\rho,\phi)$
 
@@ -381,23 +381,23 @@ $$f(x,y)= \begin{cases} I_R(x,y) \\ I_G(x,y) \\ I_B(x,y) \end{cases}$$
 
 >   此节回放丢失
 
-<img src='.\8-1.PNG'>
+<img src='.\img\8-1.PNG'>
 
 $(u,v)相平面(由于反转，有些使用倒置坐标)\quad F小孔到相平面的距离 \quad Z_c垂直于相平面$
 
 则定义参数（焦距）：
 
-<img src='.\8-2.PNG'>
+<img src='.\img\8-2.PNG'>
 
-<img src='.\8-3.PNG'>
+<img src='.\img\8-3.PNG'>
 
 考虑相机坐标系和真实世界坐标系之间的关系，**方向余弦矩阵**：
 
-<img src='.\8-4.PNG'>
+<img src='.\img\8-4.PNG'>
 
 再考虑相机模型：
 
-<img src='.\8-5.PNG'>
+<img src='.\img\8-5.PNG'>
 
 $C_{\omega}^c 方向余弦矩阵 \quad X_{c\omega}^W相机的相对位置$
 
@@ -427,7 +427,7 @@ $$\begin{pmatrix} R & t \\ 0 & 0 \end{pmatrix}$$
 
 ### 主观轮廓算法
 
-<img src='.\9-1.PNG'>
+<img src='.\img\9-1.PNG'>
 
 $\alpha 表示弹力 \quad \beta 表示刚度 \quad \gamma 表示外部参数的权值$
 
@@ -500,11 +500,11 @@ $\alpha 表示弹力 \quad \beta 表示刚度 \quad \gamma 表示外部参数的
 
 $误差是指预测值和期望值的偏差\quad方差指的是多个拟合间的偏离程度$
 
-<img src='.\10-1.PNG'>
+<img src='.\img\10-1.PNG'>
 
 ### 混淆矩阵
 
-<img src=".\10-2.PNG">
+<img src=".\img\10-2.PNG">
 
 $$Accuracy = \frac{TN+TP}{ALL}\qquad 对于非平衡数据集使用会产生误差$$
 
@@ -522,49 +522,49 @@ $$F1分数 = \frac{2\times Precision \times Recall}{Precision + Recall} \quad �
 
 ### 感知器&神经网络
 
-<img src='.\11-1.PNG'>
+<img src='.\img\11-1.PNG'>
 
-<img src='.\11-2.PNG'>
+<img src='.\img\11-2.PNG'>
 
 ### 反向传播
 
 **正向传播**
 
-<img src='.\11-6.PNG'>
+<img src='.\img\11-6.PNG'>
 
-<img src='.\11-7.PNG'>
+<img src='.\img\11-7.PNG'>
 
-<img src='.\11-8.PNG'>
+<img src='.\img\11-8.PNG'>
 
 **反向传播**
 
-<img src='.\11-9.PNG'>
+<img src='.\img\11-9.PNG'>
 
-<img src='.\11-10.PNG'>
+<img src='.\img\11-10.PNG'>
 
-<img src='.\11-11.PNG'>
+<img src='.\img\11-11.PNG'>
 
 **权值更新**
 
-<img src='.\11-12.PNG' >
+<img src='.\img\11-12.PNG' >
 
-<img src='.\11-13.PNG'>
+<img src='.\img\11-13.PNG'>
 
-<img src='.\11-14.PNG'>
+<img src='.\img\11-14.PNG'>
 
 ### 梯度下降
 
 $\omega^{'}=\omega-\eta\times\frac{\partial loss}{\partial\omega} \qquad \eta 学习率$
 
-<img src='.\11-5.PNG'>
+<img src='.\img\11-5.PNG'>
 
 ### 激活函数的优缺点
 
-<img src='.\11-3.PNG'>
+<img src='.\img\11-3.PNG'>
 
 -   `Sigmoid`：输出有限，优化稳定，连续函数便于求导；缺点，幂计算，成本高，不是0均值，收敛较慢，反向传播时梯度接近于0，权重不更新。
 
-<img src='.\11-4.PNG'>
+<img src='.\img\11-4.PNG'>
 
 -   `Relu`：在`x>0`的区域上不会梯度饱和，梯度消失，收敛速度快；缺点，输出非0均值；存在神经元死亡现象
 
